@@ -12,7 +12,7 @@ export const NcContact = (props: SVGProps<SVGSVGElement>) => (
     fontFamily="Roboto"
     fontSize={14}
     textAnchor="middle"
-    viewBox="-10 -10 41 71"
+    viewBox="0 -5 25 60"
     {...props}
   >
     <defs>
@@ -37,3 +37,9 @@ export const NcContact = (props: SVGProps<SVGSVGElement>) => (
     </symbol>
   </svg>
 );
+
+
+NcContact.metadata = {
+  width: 20,
+  height: 60
+}

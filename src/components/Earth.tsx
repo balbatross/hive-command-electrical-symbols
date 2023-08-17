@@ -13,7 +13,7 @@ export const Earth = (props: SVGProps<SVGSVGElement>) => (
     fontFamily="Roboto"
     fontSize={14}
     textAnchor="middle"
-    viewBox="-10 -10 41 51"
+    viewBox="-4.5 -5 30 30"
     {...props}
   >
     <style>{".earth_svg__E{stroke-width:.5}"}</style>
@@ -27,3 +27,8 @@ export const Earth = (props: SVGProps<SVGSVGElement>) => (
     </symbol>
   </svg>
 );
+
+Earth.metadata = {
+  width: 20,
+  height: 20
+}

@@ -12,7 +12,7 @@ export const LevelSwitchNo = (props: SVGProps<SVGSVGElement>) => (
     fontFamily="Roboto"
     fontSize={14}
     textAnchor="middle"
-    viewBox="-10 -10 61 71"
+    viewBox="-5 -10 40 71"
     {...props}
   >
     <defs>
@@ -59,3 +59,8 @@ export const LevelSwitchNo = (props: SVGProps<SVGSVGElement>) => (
     </symbol>
   </svg>
 );
+
+LevelSwitchNo.metadata = {
+  width: 35,
+  height: 60
+}

@@ -12,7 +12,7 @@ export const AcMotor2Ph = (props: SVGProps<SVGSVGElement>) => (
     fontFamily="Roboto"
     fontSize={14}
     textAnchor="middle"
-    viewBox="-10 -10 71 91"
+    viewBox="-5 -5 50 55"
     {...props}
   >
     <defs>
@@ -60,3 +60,8 @@ export const AcMotor2Ph = (props: SVGProps<SVGSVGElement>) => (
     </symbol>
   </svg>
 );
+
+AcMotor2Ph.metadata = {
+  width: 50,
+  height: 60
+}

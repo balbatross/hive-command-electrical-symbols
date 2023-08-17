@@ -25,9 +25,13 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Earth = void 0;
 const React = __importStar(require("react"));
-const Earth = (props) => (React.createElement("svg", Object.assign({ xmlns: "http://www.w3.org/2000/svg", xmlnsXlink: "http://www.w3.org/1999/xlink", fill: "#fff", fillRule: "evenodd", stroke: "#000", strokeLinecap: "round", strokeLinejoin: "round", fontFamily: "Roboto", fontSize: 14, textAnchor: "middle", viewBox: "-10 -10 41 51" }, props),
+const Earth = (props) => (React.createElement("svg", Object.assign({ xmlns: "http://www.w3.org/2000/svg", xmlnsXlink: "http://www.w3.org/1999/xlink", fill: "#fff", fillRule: "evenodd", stroke: "#000", strokeLinecap: "round", strokeLinejoin: "round", fontFamily: "Roboto", fontSize: 14, textAnchor: "middle", viewBox: "-4.5 -5 30 30" }, props),
     React.createElement("style", null, ".earth_svg__E{stroke-width:.5}"),
     React.createElement("use", { xlinkHref: "#earth_svg__A", x: 0.5, y: 0.5 }),
     React.createElement("symbol", { id: "earth_svg__A", overflow: "visible" },
         React.createElement("path", { fill: "none", d: "M10 0v15M5 15h10M7.5 17.5h5M8.75 20h2.5", className: "earth_svg__E" }))));
 exports.Earth = Earth;
+exports.Earth.metadata = {
+    width: 20,
+    height: 20
+};

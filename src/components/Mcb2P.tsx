@@ -1,6 +1,6 @@
 import * as React from "react";
 import type { SVGProps } from "react";
-export const MCb2P = (props: SVGProps<SVGSVGElement>) => (
+export const MCB2P = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -12,7 +12,7 @@ export const MCb2P = (props: SVGProps<SVGSVGElement>) => (
     fontFamily="Roboto"
     fontSize={14}
     textAnchor="middle"
-    viewBox="-10 -10 71 71"
+    viewBox="5.5 -4.5 30 60"
     {...props}
   >
     <defs>
@@ -68,3 +68,8 @@ export const MCb2P = (props: SVGProps<SVGSVGElement>) => (
     </symbol>
   </svg>
 );
+
+MCB2P.metadata = {
+  width: 30,
+  height: 60
+}

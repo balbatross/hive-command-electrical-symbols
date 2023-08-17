@@ -12,7 +12,7 @@ export const Solenoid = (props: SVGProps<SVGSVGElement>) => (
     fontFamily="Roboto"
     fontSize={14}
     textAnchor="middle"
-    viewBox="-10 -10 61 71"
+    viewBox="0 -5 45 60"
     {...props}
   >
     <defs>
@@ -51,3 +51,8 @@ export const Solenoid = (props: SVGProps<SVGSVGElement>) => (
     </symbol>
   </svg>
 );
+
+Solenoid.metadata = {
+  width: 40,
+  height: 60
+}

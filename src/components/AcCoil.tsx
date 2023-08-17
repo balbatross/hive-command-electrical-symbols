@@ -13,7 +13,7 @@ export const AcCoil = (props: SVGProps<SVGSVGElement>) => (
     fontFamily="Roboto"
     fontSize={14}
     textAnchor="middle"
-    viewBox="-10 -10 51 71"
+    viewBox="-2.5 -5 40 60"
     {...props}
   >
     <defs>
@@ -50,3 +50,8 @@ export const AcCoil = (props: SVGProps<SVGSVGElement>) => (
     </symbol>
   </svg>
 );
+
+AcCoil.metadata = {
+  width: 35,
+  height: 60
+}
