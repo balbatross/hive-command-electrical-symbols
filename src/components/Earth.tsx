@@ -1,6 +1,7 @@
 import * as React from "react";
 import type { SVGProps } from "react";
-const SvgEarth = (props: SVGProps<SVGSVGElement>) => (
+
+export const Earth = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -26,4 +27,3 @@ const SvgEarth = (props: SVGProps<SVGSVGElement>) => (
     </symbol>
   </svg>
 );
-export default SvgEarth;

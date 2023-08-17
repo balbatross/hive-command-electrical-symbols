@@ -1,6 +1,6 @@
 import * as React from "react";
 import type { SVGProps } from "react";
-const SvgNoContact = (props: SVGProps<SVGSVGElement>) => (
+export const NoContact = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -36,4 +36,3 @@ const SvgNoContact = (props: SVGProps<SVGSVGElement>) => (
     </symbol>
   </svg>
 );
-export default SvgNoContact;

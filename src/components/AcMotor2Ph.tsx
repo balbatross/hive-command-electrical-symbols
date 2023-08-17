@@ -1,6 +1,6 @@
 import * as React from "react";
 import type { SVGProps } from "react";
-const SvgAcMotor2Ph = (props: SVGProps<SVGSVGElement>) => (
+export const AcMotor2Ph = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -60,4 +60,3 @@ const SvgAcMotor2Ph = (props: SVGProps<SVGSVGElement>) => (
     </symbol>
   </svg>
 );
-export default SvgAcMotor2Ph;
