@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Solenoid = exports.NoContact = exports.NcContact = exports.Mcb3P = exports.Mcb2P = exports.Mcb1P = exports.LiquidLevelSwitch = exports.LevelSwitchNo = exports.LevelSwitchNc = exports.Earth = exports.Coil = exports.AcMotor3Ph = exports.AcMotor2Ph = exports.AcCoil = void 0;
 var AcCoil_1 = require("./AcCoil");
-Object.defineProperty(exports, "AcCoil", { enumerable: true, get: function () { return __importDefault(AcCoil_1).default; } });
+Object.defineProperty(exports, "AcCoil", { enumerable: true, get: function () { return AcCoil_1.AcCoil; } });
 var AcMotor2Ph_1 = require("./AcMotor2Ph");
 Object.defineProperty(exports, "AcMotor2Ph", { enumerable: true, get: function () { return __importDefault(AcMotor2Ph_1).default; } });
 var AcMotor3Ph_1 = require("./AcMotor3Ph");

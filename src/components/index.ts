@@ -1,4 +1,4 @@
-export { default as AcCoil } from "./AcCoil";
+export { AcCoil } from "./AcCoil";
 export { default as AcMotor2Ph } from "./AcMotor2Ph";
 export { default as AcMotor3Ph } from "./AcMotor3Ph";
 export { default as Coil } from "./Coil";

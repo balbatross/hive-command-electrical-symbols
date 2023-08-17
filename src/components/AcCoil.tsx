@@ -1,6 +1,7 @@
 import * as React from "react";
 import type { SVGProps } from "react";
-const SvgAcCoil = (props: SVGProps<SVGSVGElement>) => (
+
+export const AcCoil = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -49,4 +50,3 @@ const SvgAcCoil = (props: SVGProps<SVGSVGElement>) => (
     </symbol>
   </svg>
 );
-export default SvgAcCoil;
