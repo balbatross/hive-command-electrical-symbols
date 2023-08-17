@@ -13,7 +13,7 @@ export const MCB3P = (props: SVGProps<SVGSVGElement>) => (
     fontFamily="Roboto"
     fontSize={14}
     textAnchor="middle"
-    viewBox="-10 -10 91 71"
+    viewBox="5 -5 60 60"
     {...props}
   >
     <defs>
@@ -75,3 +75,8 @@ export const MCB3P = (props: SVGProps<SVGSVGElement>) => (
     </symbol>
   </svg>
 );
+
+MCB3P.metadata = {
+  width: 60,
+  height: 60
+}
