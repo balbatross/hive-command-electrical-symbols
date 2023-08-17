@@ -51,5 +51,17 @@ export const MCB1P = (props: SVGProps<SVGSVGElement>) => (
 
 MCB1P.metadata = {
   width: 20,
-  height: 60
+  height: 60,
+  ports: [
+    {
+      id: '1',
+      x: 0,
+      y: 10
+    },
+    {
+      id: '2',
+      x: 0,
+      y: 50
+    }
+  ]
 }
