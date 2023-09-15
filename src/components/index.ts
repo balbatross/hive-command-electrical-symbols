@@ -12,3 +12,4 @@ export * from "./Mcb3P";
 export * from "./NcContact";
 export * from "./NoContact";
 export * from "./Solenoid";
+export * from './DCP'

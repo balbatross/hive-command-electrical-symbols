@@ -28,3 +28,4 @@ __exportStar(require("./Mcb3P"), exports);
 __exportStar(require("./NcContact"), exports);
 __exportStar(require("./NoContact"), exports);
 __exportStar(require("./Solenoid"), exports);
+__exportStar(require("./DCP"), exports);
