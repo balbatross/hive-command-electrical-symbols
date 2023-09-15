@@ -13,3 +13,4 @@ export * from "./NcContact";
 export * from "./NoContact";
 export * from "./Solenoid";
 export * from './DCP'
+export * from './Arrow'

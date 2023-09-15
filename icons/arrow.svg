@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background:white;" viewBox="0 0 20 10">
+    <line
+    x1="0"
+    y1="5"
+    x2="10"
+    y2="5"
+    stroke-width="2"
+    stroke="black"/>
+    <path d="M 10 0 L 20 5 L 10 10 z" />
+</svg>
