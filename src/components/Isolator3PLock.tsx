@@ -12,7 +12,8 @@ export const Isolator3PLock = (props: SVGProps<SVGSVGElement>) => (
     fontFamily="Roboto"
     fontSize={14}
     textAnchor="middle"
-    viewBox="-10 -10 91 71"
+    viewBox="5.5 -4.5 60 60"
+    
     {...props}
   >
     <defs>
