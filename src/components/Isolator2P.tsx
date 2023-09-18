@@ -12,7 +12,7 @@ export const Isolator2P = (props: SVGProps<SVGSVGElement>) => (
     fontFamily="Roboto"
     fontSize={14}
     textAnchor="middle"
-    viewBox="-10 -10 81 71"
+    viewBox="5.5 -4.5 30 60"
     {...props}
   >
     <defs>

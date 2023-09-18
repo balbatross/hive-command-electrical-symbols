@@ -11,8 +11,8 @@ export const FuseDisconnector1P = (props: SVGProps<SVGSVGElement>) => (
     strokeLinejoin="round"
     fontFamily="Roboto"
     fontSize={14}
-    textAnchor="middle"
-    viewBox="-10 -10 51 71"
+    textAnchor="middle"    
+    viewBox="5.5 -4.5 20 60"
     {...props}
   >
     <defs>

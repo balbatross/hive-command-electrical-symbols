@@ -11,8 +11,8 @@ export const Isolator2PLock = (props: SVGProps<SVGSVGElement>) => (
     strokeLinejoin="round"
     fontFamily="Roboto"
     fontSize={14}
-    textAnchor="middle"
-    viewBox="-10 -10 81 71"
+    textAnchor="middle"    
+    viewBox="5.5 -4.5 30 60"
     {...props}
   >
     <defs>
