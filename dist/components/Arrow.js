@@ -25,7 +25,7 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Arrow = void 0;
 const React = __importStar(require("react"));
-const Arrow = (props) => (React.createElement("svg", Object.assign({ viewBox: "0 0 20 10", xmlns: "http://www.w3.org/2000/svg", xmlnsXlink: "http://www.w3.org/1999/xlink" }, props),
+const Arrow = (props) => (React.createElement("svg", Object.assign({ viewBox: "0 0 20 15", xmlns: "http://www.w3.org/2000/svg", xmlnsXlink: "http://www.w3.org/1999/xlink" }, props),
     React.createElement("path", { stroke: "#000", strokeWidth: 2, d: "M0 5h10" }),
     React.createElement("path", { d: "m10 0 10 5-10 5z" })));
 exports.Arrow = Arrow;
