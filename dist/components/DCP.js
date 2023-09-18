@@ -30,6 +30,6 @@ const DCP = (props) => (React.createElement("svg", Object.assign({ xmlns: "http:
     React.createElement("path", { stroke: "#000", d: "M5 10v15" })));
 exports.DCP = DCP;
 exports.DCP.metadata = {
-    width: 6,
-    height: 13
+    width: 15,
+    height: 22
 };
