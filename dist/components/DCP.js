@@ -25,8 +25,8 @@ var __importStar = (this && this.__importStar) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.DCP = void 0;
 const React = __importStar(require("react"));
-const DCP = (props) => (React.createElement("svg", Object.assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "-5 -5 20 30" }, props),
-    React.createElement("circle", { cx: 5, cy: 5, r: 5, fill: "none", stroke: "#000" }),
+const DCP = (props) => (React.createElement("svg", Object.assign({ xmlns: "http://www.w3.org/2000/svg", viewBox: "0 3 10 15" }, props),
+    React.createElement("circle", { cx: 5, cy: 7, r: 3, fill: "none", stroke: "#000" }),
     React.createElement("path", { stroke: "#000", d: "M5 10v15" })));
 exports.DCP = DCP;
 exports.DCP.metadata = {
