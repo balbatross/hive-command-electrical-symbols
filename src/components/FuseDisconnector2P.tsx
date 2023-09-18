@@ -13,7 +13,7 @@ export const FuseDisconnector2P = (props: SVGProps<SVGSVGElement>) => (
     fontFamily="Roboto"
     fontSize={14}
     textAnchor="middle"
-    viewBox="5.5 -4.5 30 60"
+    viewBox="5.5 -4.5 45 60"
     {...props}
   >
     <defs>
@@ -54,6 +54,6 @@ export const FuseDisconnector2P = (props: SVGProps<SVGSVGElement>) => (
 
 
 FuseDisconnector2P.metadata = {
-  width: 30,
+  width: 45,
   height: 60
 }
