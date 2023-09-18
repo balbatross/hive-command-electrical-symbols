@@ -9,6 +9,6 @@ export const DCP = (props: SVGProps<SVGSVGElement>) => (
 );
 
 DCP.metadata = {
-    width: 15,
-    height: 23
+    width: 10, //15,
+    height: 20, //23
 }
