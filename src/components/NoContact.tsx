@@ -12,7 +12,7 @@ export const NoContact = (props: SVGProps<SVGSVGElement>) => (
     fontFamily="Roboto"
     fontSize={14}
     textAnchor="middle"
-    viewBox="-5 -5 25 60"
+    viewBox="-2 -5 25 60"
     {...props}
   >
     <defs>

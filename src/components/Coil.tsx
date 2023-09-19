@@ -12,7 +12,7 @@ export const Coil = (props: SVGProps<SVGSVGElement>) => (
     fontFamily="Roboto"
     fontSize={14}
     textAnchor="middle"
-    viewBox="-5 -5 30 60"
+    viewBox="-7 -5 30 60"
     {...props}
   >
     <defs>
