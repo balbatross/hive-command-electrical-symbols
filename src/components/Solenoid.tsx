@@ -12,7 +12,7 @@ export const Solenoid = (props: SVGProps<SVGSVGElement>) => (
     fontFamily="Roboto"
     fontSize={14}
     textAnchor="middle"
-    viewBox="0 -5 45 60"
+    viewBox="-2 -5 45 60"
     {...props}
   >
     <defs>
