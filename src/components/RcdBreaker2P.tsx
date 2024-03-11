@@ -1,6 +1,6 @@
 import * as React from "react";
 import type { SVGProps } from "react";
-const SvgRcdBreaker2P = (props: SVGProps<SVGSVGElement>) => (
+export const RcdBreaker2P = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -80,4 +80,8 @@ const SvgRcdBreaker2P = (props: SVGProps<SVGSVGElement>) => (
     </symbol>
   </svg>
 );
-export default SvgRcdBreaker2P;
+
+RcdBreaker2P.metadata = {
+  width: 30,
+  height: 60
+}
