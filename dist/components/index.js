@@ -40,3 +40,6 @@ __exportStar(require("./Isolator2P"), exports);
 __exportStar(require("./Isolator2PLock"), exports);
 __exportStar(require("./Isolator3P"), exports);
 __exportStar(require("./Isolator3PLock"), exports);
+__exportStar(require("./RcdBreaker1P"), exports);
+__exportStar(require("./RcdBreaker2P"), exports);
+__exportStar(require("./RcdBreaker3P"), exports);

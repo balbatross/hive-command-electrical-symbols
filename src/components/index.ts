@@ -24,3 +24,7 @@ export * from './Isolator2P'
 export * from './Isolator2PLock'
 export * from './Isolator3P'
 export * from './Isolator3PLock'
+
+export * from './RcdBreaker1P'
+export * from './RcdBreaker2P'
+export * from './RcdBreaker3P'
