@@ -1,5 +1,6 @@
 import * as React from "react";
 import type { SVGProps } from "react";
+
 export const MCB1P = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"

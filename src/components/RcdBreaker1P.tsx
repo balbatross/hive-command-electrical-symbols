@@ -14,6 +14,7 @@ export const RcdBreaker1P = (props: SVGProps<SVGSVGElement>) => (
     fontSize={14}
     textAnchor="middle"
     viewBox="5.5 -4.5 20 60"
+    style={{height: '100%', width: '100%'}}
     {...props}
   >
     <defs>

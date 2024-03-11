@@ -12,7 +12,8 @@ export const RcdBreaker3P = (props: SVGProps<SVGSVGElement>) => (
     fontFamily="Roboto"
     fontSize={14}
     textAnchor="middle"
-    viewBox="-10 -10 91 71"
+    viewBox="5.5 -4.5 60 60"
+    style={{height: '100%', width: '100%'}}
     {...props}
   >
     <defs>
